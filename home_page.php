@@ -64,7 +64,7 @@
                         <h1>21</h1>
                     </div>
                     <div class="deskripsiKapal">
-                        <h2>KM KELIMUTU SURABAYA - SAMPIT</h5>
+                        <h2>KM KaLIMUTU SURABAYA - SAMPIT</h5>
                             <p> The Kelimutu Ship sailed again Thursday Evening for
                                 Surabaya to Sampit it has a passenger capacity of 1000.</p>
                     </div>

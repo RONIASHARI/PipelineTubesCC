@@ -1,7 +1,7 @@
 <?php
-  $dbhost = "localhost";
+  $dbhost = "172.19.0.2";
   $dbuser = "root";
-  $dbpass = "";
+  $dbpass = "pw";
   $dbname = "tubes_pemweb";
   $connection = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
   

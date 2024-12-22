@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  apache-php:
+    image: apache-mysqli
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - C:/xampp/htdocs/TubesPemweb:/var/www/html
+    ports:
+      - "81:80"
+    networks:
+      - app-network
+
+  mysql:
+    image: mysql
+    volumes:
+      - C:/xampp/htdocs/TubesPemweb/DB:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: pw
+    networks:
+      - app-network
+
+  phpmyadmin:
+    image: phpmyadmin
+    environment:
+      PMA_HOST: mysql
+    ports:
+      - "8000:80"
+    depends_on:
+      - mysql
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

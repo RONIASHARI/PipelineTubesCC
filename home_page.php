@@ -2,7 +2,6 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<!-- test push -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -64,7 +63,7 @@
                         <h1>21</h1>
                     </div>
                     <div class="deskripsiKapal">
-                        <h2>KM KALIyan SURABAYA - SAMPIT</h5>
+                        <h2>KM KALIMUTU SURABAYA - SAMPIT</h5>
                             <p> The Kelimutu Ship sailed again Thursday Evening for
                                 Surabaya to Sampit it has a passenger capacity of 1000.</p>
                     </div>
